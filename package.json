@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
+    "webpack": "^4.23.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

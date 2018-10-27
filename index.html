@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RxJS Demo</title>
+    <style>
+        body { font-family: 'Arial'; background: lightgray }
+        ul#result { list-style-type: none; padding: 20px; }
+        ul#result li { padding: 15px; background: lightcoral; margin-bottom: 10px; }
+        ul.pagination-parent {display: flex}
+        ul.pagination-parent li.pagination { 
+            display: inline-block;
+            padding: 0.25em;
+            min-width: 1em;
+            text-align: center;
+            border: 1px solid lightblue;
+            border-radius: 0.25em;
+            background-color:lightcoral;
+            color: lightcoral;
+            text-decoration: none;
+        }
+        ul.pagination-parent li.pagination a { 
+            color:white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>RxJS Demo</h1>
+    <input type="text" id="input">
+    <div>
+        <ul id="result"></ul>
+    </div>
+    <footer>
+        <ul class="pagination-parent">
+            <li id="page-1" class="pagination">
+                <a href="#">1</a>
+            </li>
+            <li id="page-2" class="pagination">
+                <a href="#">2</a>
+            </li>
+            <li id="page-3" class="pagination">
+                <a href="#">3</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="/bundle.js"></script>
+</body>
+</html>
